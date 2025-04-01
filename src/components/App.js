@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const App = () => {
   const relatives=[]
@@ -13,11 +13,7 @@ const App = () => {
       
 
       </ol>
-      <button type="button"
-        onClick= {relativeList}
-        
-        
-      ></button>
+      
     </div>
   )
 }
